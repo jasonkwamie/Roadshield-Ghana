@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-GH">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RoadShield Ghana | Roadside assistance and mobile mechanics in Accra</title>
+<meta name="description" content="RoadShield Ghana sends a verified mobile mechanic to you in Accra: jump starts, tyre changes, diagnostics, minor repairs and towing through partner tow companies. Join the pilot.">
+<link rel="canonical" href="https://roadshieldghana.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="RoadShield Ghana | Roadside assistance in Accra">
+<meta property="og:description" content="A verified mobile mechanic comes to you. Jump starts, tyres, diagnostics, minor repairs and towing, with a membership that builds service credit.">
+<meta property="og:url" content="https://roadshieldghana.com/">
+<meta name="theme-color" content="#14202b">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2314202b'/%3E%3Crect x='28' y='8' width='8' height='14' fill='%23ffc21a'/%3E%3Crect x='28' y='26' width='8' height='14' fill='%23ffc21a'/%3E%3Crect x='28' y='44' width='8' height='12' fill='%23ffc21a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Semi+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "RoadShield Ghana",
+  "description": "Roadside assistance and mobile mechanics in Accra, Ghana.",
+  "url": "https://roadshieldghana.com/",
+  "telephone": "{{PHONE_TEL}}",
+  "areaServed": { "@type": "City", "name": "Accra" },
+  "serviceType": ["Roadside assistance", "Mobile mechanic", "Jump start", "Tyre change", "Vehicle diagnostics", "Towing arrangement"]
+}
+</script>
+<style>
+:root{
+  --ink:#14202b; --ink-2:#22313f; --paper:#f3f4f1; --white:#ffffff;
+  --road:#ffc21a; --laterite:#b8412b; --mute:#566673; --line:#d5d9d6;
+  --wrap:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:"Barlow",system-ui,sans-serif;font-size:17px;line-height:1.6;color:var(--ink);background:var(--paper)}
+h1,h2,h3{font-family:"Barlow Semi Condensed","Barlow",sans-serif;font-weight:700;line-height:1.08;margin:0;letter-spacing:-.005em}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--road);outline-offset:3px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 24px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--road);color:var(--ink);padding:8px 14px;z-index:10}
+.skip:focus{left:8px}
+
+/* header */
+header.top{background:var(--ink);color:var(--white)}
+header.top .wrap{display:flex;align-items:center;justify-content:space-between;padding-top:16px;padding-bottom:16px;gap:16px}
+.brand{font-family:"Barlow Semi Condensed",sans-serif;font-weight:700;font-size:24px;text-decoration:none;display:flex;align-items:center;gap:10px}
+.brand i{display:block;width:8px;height:26px;background:var(--road);border-radius:2px}
+header.top nav{display:flex;gap:22px;font-size:15px}
+header.top nav a{text-decoration:none;color:#d6dde3}
+header.top nav a:hover{color:var(--white)}
+
+/* buttons */
+.btn{display:inline-block;font:600 17px/1 "Barlow",sans-serif;padding:16px 24px;border-radius:6px;text-decoration:none;border:2px solid transparent;cursor:pointer}
+.btn-primary{background:var(--road);color:var(--ink)}
+.btn-primary:hover{background:#ffd040}
+.btn-ghost{border-color:#6c7b87;color:var(--white)}
+.btn-ghost:hover{border-color:var(--white)}
+.btn-dark{background:var(--ink);color:var(--white)}
+.btn-dark:hover{background:var(--ink-2)}
+
+/* hero */
+.hero{background:var(--ink);color:var(--white);position:relative;padding:72px 0 96px}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:36px;height:6px;
+  background:repeating-linear-gradient(90deg,var(--road) 0 56px,transparent 56px 104px)}
+.hero h1{font-size:clamp(40px,7vw,76px);max-width:14ch}
+.hero p.lead{font-size:20px;max-width:46ch;color:#cdd6dd;margin:24px 0 32px}
+.hero .actions{display:flex;flex-wrap:wrap;gap:12px}
+.hero .note{margin-top:20px;font-size:15px;color:#9fb0bc}
+
+/* sections */
+section{padding:72px 0}
+section h2{font-size:clamp(30px,4.5vw,44px);margin-bottom:16px}
+.intro{max-width:58ch;color:var(--mute);margin:0 0 40px}
+.alt{background:var(--white)}
+
+/* steps */
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:28px;counter-reset:s}
+.steps li{counter-increment:s;border-top:4px solid var(--ink);padding-top:16px}
+.steps li::before{content:counter(s);display:block;font:700 34px/1 "Barlow Semi Condensed",sans-serif;color:var(--laterite);margin-bottom:8px}
+.steps h3{font-size:22px;margin-bottom:6px}
+.steps p{margin:0;color:var(--mute);font-size:16px}
+
+/* services */
+.svc{display:grid;grid-template-columns:1fr 1fr;gap:0 56px}
+.svc div{padding:20px 0;border-top:1px solid var(--line)}
+.svc h3{font-size:22px;margin-bottom:4px}
+.svc p{margin:0;color:var(--mute);font-size:16px}
+.tag{display:inline-block;font-size:13px;font-weight:600;background:var(--road);color:var(--ink);padding:2px 8px;border-radius:3px;margin-left:8px;vertical-align:middle}
+
+/* membership */
+.plans{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:760px}
+.plan{border:2px solid var(--ink);border-radius:8px;padding:28px;background:var(--white)}
+.plan.gold{background:var(--ink);color:var(--white)}
+.plan h3{font-size:28px}
+.plan .price{font:700 44px/1.1 "Barlow Semi Condensed",sans-serif;margin:8px 0 4px}
+.plan .price small{font:500 16px "Barlow",sans-serif;opacity:.75}
+.plan ul{padding-left:20px;margin:16px 0 0;font-size:16px}
+.plan li{margin-bottom:6px}
+.fine{font-size:14px;color:var(--mute);margin-top:20px;max-width:62ch}
+.credit{margin-top:32px;padding:20px 24px;border-left:6px solid var(--road);background:var(--paper);max-width:760px}
+.credit p{margin:0}
+
+/* why */
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.why h3{font-size:22px;margin-bottom:6px}
+.why p{margin:0;color:var(--mute);font-size:16px}
+
+/* faq */
+details{border-top:1px solid var(--line);padding:16px 0;max-width:760px}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:600 20px/1.3 "Barlow Semi Condensed",sans-serif;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";float:right;font-size:24px;line-height:1}
+details[open] summary::after{content:"\2212"}
+details p{margin:10px 0 0;color:var(--mute)}
+
+/* final cta + footer */
+.cta{background:var(--road);padding:64px 0}
+.cta h2{font-size:clamp(30px,4.5vw,46px);max-width:18ch}
+.cta p{max-width:52ch;margin:12px 0 28px}
+.cta .actions{display:flex;flex-wrap:wrap;gap:12px}
+footer{background:var(--ink);color:#cdd6dd;padding:40px 0;font-size:15px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:24px;justify-content:space-between}
+footer a{color:var(--white)}
+
+@media(max-width:860px){
+  .steps{grid-template-columns:1fr 1fr}
+  .why{grid-template-columns:1fr}
+  header.top nav{display:none}
+}
+@media(max-width:620px){
+  .svc,.plans,.steps{grid-template-columns:1fr}
+  .hero{padding:48px 0 80px}
+  .btn{width:100%;text-align:center}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="/"><i aria-hidden="true"></i>RoadShield Ghana</a>
+    <nav aria-label="Main">
+      <a href="#how">How it works</a>
+      <a href="#services">Services</a>
+      <a href="#membership">Membership</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="hero">
+    <div class="wrap">
+      <h1>Broken down in Accra? A mechanic comes to you.</h1>
+      <p class="lead">RoadShield Ghana sends a verified mobile mechanic to your location for jump starts, flat tyres, diagnostics and minor repairs. Need a tow? We arrange it with a partner tow company at a member rate.</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="{{APP_URL}}">Request help</a>
+        <a class="btn btn-ghost" href="https://wa.me/{{WHATSAPP_NUMBER}}?text=Hello%20RoadShield%2C%20I%20need%20roadside%20help">Chat on WhatsApp</a>
+      </div>
+      <p class="note">Now running as a pilot in Accra.</p>
+    </div>
+  </div>
+
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="intro">You see the price and the expected arrival time before anyone is on the way.</p>
+      <ol class="steps">
+        <li><h3>Tell us what’s wrong</h3><p>Pick the problem and share your location on the map.</p></li>
+        <li><h3>A mechanic claims your job</h3><p>Verified mechanics nearby see your request and one takes it.</p></li>
+        <li><h3>Track the arrival</h3><p>Follow the mechanic live with an arrival countdown. You see a window of up to 4 hours.</p></li>
+        <li><h3>Pay in the app</h3><p>Pay with Mobile Money or card once the job is done.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="services" class="alt">
+    <div class="wrap">
+      <h2>What we help with</h2>
+      <p class="intro">The most common breakdowns, fixed where you are.</p>
+      <div class="svc">
+        <div><h3>Battery jump start</h3><p>Dead battery in a car park or on the roadside.</p></div>
+        <div><h3>Flat tyre</h3><p>We change the wheel so you can drive on.</p></div>
+        <div><h3>Diagnostics</h3><p>Basic OBD checks to find out what the warning light means.</p></div>
+        <div><h3>Minor repairs</h3><p>Fuses, spark plugs, fluid top-ups and similar small fixes. Parts are paid for separately.</p></div>
+        <div><h3>Towing</h3><p>If the car must go to a garage, we arrange a partner tow company and you pay through RoadShield at a member rate.</p></div>
+        <div><h3>Fuel delivery <span class="tag">Coming soon</span></h3><p>Emergency fuel brought to you, especially at night.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="membership">
+    <div class="wrap">
+      <h2>Membership</h2>
+      <p class="intro">Pay a monthly fee. Part of it becomes service credit that you can use on your jobs, and cheap callouts are free for members.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Silver</h3>
+          <div class="price">₵50 <small>/ month</small></div>
+          <ul>
+            <li>₵20 of every month’s fee becomes service credit</li>
+            <li>Free jump starts and basic diagnostics</li>
+            <li>Member rates on other jobs and on towing</li>
+          </ul>
+        </div>
+        <div class="plan gold">
+          <h3>Gold</h3>
+          <div class="price">₵120 <small>/ month</small></div>
+          <ul>
+            <li>₵48 of every month’s fee becomes service credit</li>
+            <li>Free jump starts and basic diagnostics</li>
+            <li>Free towing up to a set distance</li>
+            <li>Priority dispatch</li>
+          </ul>
+        </div>
+      </div>
+      <div class="credit">
+        <p><strong>Your credit adds up.</strong> Credit you don’t use builds from month to month, and you can put it towards a tow if you ever need one.</p>
+      </div>
+      <p class="fine">Pilot prices, which may change as we learn. Parts, major repairs and shop work are paid for separately, and a repeat visit for the same fault is charged in full. Credit is capped and expires after a set period.</p>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="wrap">
+      <h2>Why drivers use RoadShield</h2>
+      <div class="why" style="margin-top:32px">
+        <div><h3>Verified mechanics</h3><p>Licence, insurance and identity are checked before a mechanic can take jobs.</p></div>
+        <div><h3>A clear total</h3><p>You see the price before you confirm, with no haggling at the roadside.</p></div>
+        <div><h3>Live tracking</h3><p>See where your mechanic is and when they will arrive.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <h2>Questions</h2>
+      <details>
+        <summary>Where do you operate?</summary>
+        <p>Accra only, during the pilot. We will grow from there once we have the service right.</p>
+      </details>
+      <details>
+        <summary>How fast will someone arrive?</summary>
+        <p>You see an arrival window of up to 4 hours, which allows for peak traffic. Most requests should be faster, and you can follow your mechanic on the map.</p>
+      </details>
+      <details>
+        <summary>How much does it cost?</summary>
+        <p>You see the price in the app before you confirm. Members get free callouts for cheap jobs and use their saved credit on bigger ones. Parts are paid for separately.</p>
+      </details>
+      <details>
+        <summary>Do you tow cars?</summary>
+        <p>We arrange towing through partner tow companies. You book and pay through RoadShield, so you get the member rate and can use saved credit.</p>
+      </details>
+      <details>
+        <summary>Can I use RoadShield without a membership?</summary>
+        <p>Yes. Contact us on WhatsApp and we will explain how non-member jobs work during the pilot.</p>
+      </details>
+      <details>
+        <summary>I’m a mechanic. Can I join?</summary>
+        <p>Yes. Message us on WhatsApp. We verify every mechanic before they can take jobs.</p>
+      </details>
+    </div>
+  </section>
+
+  <div class="cta">
+    <div class="wrap">
+      <h2>Need help on the road, or want to join the pilot?</h2>
+      <p>Request help now, or message us on WhatsApp and we will reply.</p>
+      <div class="actions">
+        <a class="btn btn-dark" href="{{APP_URL}}">Request help</a>
+        <a class="btn btn-dark" href="https://wa.me/{{WHATSAPP_NUMBER}}?text=Hello%20RoadShield%2C%20I%20want%20to%20join%20the%20pilot">Chat on WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>RoadShield Ghana</strong><br>Roadside assistance and mobile mechanics in Accra.</div>
+    <div>Call <a href="tel:{{PHONE_TEL}}">{{PHONE_DISPLAY}}</a><br>WhatsApp <a href="https://wa.me/{{WHATSAPP_NUMBER}}">{{PHONE_DISPLAY}}</a></div>
+    <div>© 2026 RoadShield Ghana</div>
+  </div>
+</footer>
+</body>
+</html>
